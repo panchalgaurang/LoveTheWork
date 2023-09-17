@@ -1,0 +1,362 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19089854100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User is on Home Page",
+        "description": "",
+        "id": "verify-user-login-functionality;user-is-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 209600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 838724300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "MyStepdefs.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 598554300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify URL",
+            "match": {
+              "location": "MyStepdefs.iVerifyURL()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 215409500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify SignIn button is visible",
+            "match": {
+              "location": "MyStepdefs.iVerifySignInButtonIsVisible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111743500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify Copyright Text is visible",
+            "match": {
+              "location": "MyStepdefs.iVerifyCopyrightTextIsVisible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 293791600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Accept All Cookies Button",
+            "match": {
+              "location": "MyStepdefs.iClickOnAcceptAllCookiesButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6173975300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Sign in",
+            "match": {
+              "location": "MyStepdefs.iClickOnSignIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 480006600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Accept All Cookies Button",
+            "match": {
+              "location": "MyStepdefs.iClickOnAcceptAllCookiesButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1249832800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter invalid Email address \"test@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@gmail.com",
+                  "offset": 31
+                }
+              ],
+              "location": "MyStepdefs.iEnterInvalidEmailAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228368400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter invalid Password \"xyz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepdefs.iEnterInvalidPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3969830000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Login Button",
+            "match": {
+              "location": "MyStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98047000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify error message",
+            "match": {
+              "location": "MyStepdefs.iVerifyErrorMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205464600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I clear text from email text box field",
+            "match": {
+              "location": "MyStepdefs.iClearTextFromEmailTextBoxField()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 197354700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on enter Email Address \"samlog_1919@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "samlog_1919@gmail.com",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepdefs.iClickOnEnterEmailAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 257654400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on enter Password \"Sam1919@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sam1919@",
+                  "offset": 27
+                }
+              ],
+              "location": "MyStepdefs.iClickOnEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9464059800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on Login Button",
+            "match": {
+              "location": "MyStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 77304800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify URL after login",
+            "match": {
+              "location": "MyStepdefs.iVerifyURLAfterLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 551258200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on Search field for \"2019 campaign Nike Dream Crazy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2019 campaign Nike Dream Crazy",
+                  "offset": 29
+                }
+              ],
+              "location": "MyStepdefs.iClickOnSearchFieldFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1717385000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Select from Dropdown list Cannes Lions Campaigns",
+            "match": {
+              "location": "MyStepdefs.selectFromDropdownListCannesLionsCampaigns()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4383112400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Select Nike Dream Crazy video",
+            "match": {
+              "location": "MyStepdefs.selectNikeDreamCrazyVideo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4132066600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I Click on Save",
+            "match": {
+              "location": "MyStepdefs.iClickOnSave()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 326419500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I Create new Playlist",
+            "match": {
+              "location": "MyStepdefs.iCreateNewPlaylist()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 444230000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter playlist Name \"MyPlaylist\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MyPlaylist",
+                  "offset": 23
+                }
+              ],
+              "location": "MyStepdefs.iEnterPlaylistName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218657100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Click on create button",
+            "match": {
+              "location": "MyStepdefs.iClickOnCreateButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify user login functionality",
+    "description": "",
+    "id": "verify-user-login-functionality",
+    "keyword": "Feature",
+    "uri": "Homepage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke"
+      }
+    ]
+  }
+]
