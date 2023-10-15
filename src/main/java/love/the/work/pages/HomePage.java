@@ -12,11 +12,11 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage extends Utility {
 
     private static final Logger log = LogManager.getLogger(HomePage.class.getName());
-
+    //https://github.com/panchalgaurang/LoveTheWork
     public HomePage() {
         PageFactory.initElements(driver, this);
     }
-
+    //https://github.com/panchalgaurang/LoveTheWork
     @CacheLookup
     @FindBy(xpath = "//*[@id=\"onetrust-accept-btn-handler\"]")
     WebElement acceptCookiesobj;
